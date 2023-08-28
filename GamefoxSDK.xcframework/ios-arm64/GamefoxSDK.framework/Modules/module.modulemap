@@ -1,0 +1,11 @@
+framework module GamefoxSDK {
+  umbrella header "GamefoxSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module GamefoxSDK.Swift {
+  header "GamefoxSDK-Swift.h"
+  requires objc
+}
